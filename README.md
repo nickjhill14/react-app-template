@@ -39,7 +39,7 @@ To attempt to fix lint issues:
 npm run lint:fix
 ```
 
-## 🧪 Tests
+## ✅ Tests
 
 ```shell
 npm t
@@ -49,6 +49,18 @@ To run tests in `watch` mode:
 
 ```shell
 npm run test:watch
+```
+
+### 🧪 E2E Tests
+
+```shell
+npm run test:e2e
+```
+
+To run tests in `UI` mode:
+
+```shell
+npm run test:e2e:ui
 ```
 
 ## 🏃‍♂️ Running Locally
