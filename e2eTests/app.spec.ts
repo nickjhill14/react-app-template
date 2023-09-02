@@ -1,7 +1,18 @@
+import AxeBuilder from "@axe-core/playwright";
 import { expect, test } from "@playwright/test";
 
-test("displaying the app", async ({ page }) => {
-  await page.goto("/");
+test.describe("App", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto("/");
+  });
 
-  await expect(page).toHaveTitle("React App Template");
+  test("there are no accessibility violations", async ({ page }) => {
+    const { violations } = await new AxeBuilder({ page }).analyze();
+
+    expect(violations).toEqual([]);
+  });
+
+  test("displaying the app", async ({ page }) => {
+    await expect(page).toHaveTitle("React App Template");
+  });
 });
