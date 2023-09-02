@@ -57,6 +57,12 @@ npm run test:watch
 npm start
 ```
 
+## Storybook
+
+```shell
+npm run storybook
+```
+
 ## Committing
 
 Prior to committing, run the pre-commit script:
