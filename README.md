@@ -23,3 +23,25 @@ To attempt to fix lint issues:
 ```shell
 npm run lint:fix
 ```
+
+## Tests
+
+```shell
+npm t
+```
+
+To run tests in `watch` mode:
+
+```shell
+npm run test:watch
+```
+
+## Committing
+
+Prior to committing, run the pre-commit script:
+
+```shell
+npm run pre-commit
+```
+
+_Note: This runs automatically on commit._
