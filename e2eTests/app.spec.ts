@@ -14,5 +14,8 @@ test.describe("App", () => {
 
   test("displaying the app", async ({ page }) => {
     await expect(page).toHaveTitle("React App Template");
+    await expect(
+      page.getByRole("heading", { name: "React App Template" }),
+    ).toBeVisible();
   });
 });
