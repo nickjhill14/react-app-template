@@ -1,13 +1,13 @@
-# React App Template
+# 📦 React App Template
 
 A template for generating React web apps.
 
-## Prerequisites
+## 🛠️ Prerequisites
 
 - [NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 - [Talisman](https://thoughtworks.github.io/talisman/docs/installation/global-hook/)
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Setup [Node](https://nodejs.org/en):
 
@@ -21,13 +21,13 @@ A template for generating React web apps.
    npm i
    ```
 
-## Formatting
+## 🖌️ Formatting
 
 ```shell
 npm run format
 ```
 
-### Linting
+## 🧹 Linting
 
 ```shell
 npm run lint:check
@@ -39,7 +39,7 @@ To attempt to fix lint issues:
 npm run lint:fix
 ```
 
-## Tests
+## 🧪 Tests
 
 ```shell
 npm t
@@ -51,19 +51,19 @@ To run tests in `watch` mode:
 npm run test:watch
 ```
 
-## Running Locally
+## 🏃‍♂️ Running Locally
 
 ```shell
 npm start
 ```
 
-## Storybook
+## 📖 Storybook
 
 ```shell
 npm run storybook
 ```
 
-## Committing
+## ✍️ Committing
 
 Prior to committing, run the pre-commit script:
 
