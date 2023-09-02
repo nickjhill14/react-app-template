@@ -4,7 +4,22 @@ A template for generating React web apps.
 
 ## Prerequisites
 
+- [NVM](https://github.com/nvm-sh/nvm#installing-and-updating)
 - [Talisman](https://thoughtworks.github.io/talisman/docs/installation/global-hook/)
+
+## Getting Started
+
+1. Setup [Node](https://nodejs.org/en):
+
+   ```shell
+   nvm use
+   ```
+
+2. Install dependencies:
+
+   ```shell
+   npm i
+   ```
 
 ## Formatting
 
