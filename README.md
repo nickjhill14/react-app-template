@@ -9,3 +9,15 @@ A template for generating React web apps.
 ```shell
 npm run format
 ```
+
+### Linting
+
+```shell
+npm run lint:check
+```
+
+To attempt to fix lint issues:
+
+```shell
+npm run lint:fix
+```

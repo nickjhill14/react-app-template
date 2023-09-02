@@ -23,13 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "format": "prettier . --write",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "react-scripts test"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
