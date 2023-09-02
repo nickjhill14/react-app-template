@@ -2,9 +2,11 @@
 
 A template for generating React web apps.
 
-## Local Dev
+## Prerequisites
 
-### Formatting
+- [Talisman](https://thoughtworks.github.io/talisman/docs/installation/global-hook/)
+
+## Formatting
 
 ```shell
 npm run format
