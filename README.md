@@ -51,6 +51,12 @@ To run tests in `watch` mode:
 npm run test:watch
 ```
 
+## Running Locally
+
+```shell
+npm start
+```
+
 ## Committing
 
 Prior to committing, run the pre-commit script:
