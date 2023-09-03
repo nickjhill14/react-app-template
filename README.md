@@ -21,6 +21,12 @@ A template for generating React web apps.
    npm i
    ```
 
+3. Setup [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks):
+
+   ```shell
+   npm run prepare
+   ```
+
 ## 🖌️ Formatting
 
 ```shell
