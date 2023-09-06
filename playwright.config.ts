@@ -1,11 +1,11 @@
-import { defineConfig, devices, PlaywrightTestConfig } from "@playwright/test";
+import { defineConfig, devices } from "@playwright/test";
 
-const playwrightTestConfig: PlaywrightTestConfig = {
+export default defineConfig({
   testDir: "./e2eTests",
   fullyParallel: true,
   reporter: "html",
   use: {
-    baseURL: "http://127.0.0.1:3000",
+    baseURL: "http://localhost:5173/",
     trace: "on-first-retry",
   },
   projects: [
@@ -16,9 +16,7 @@ const playwrightTestConfig: PlaywrightTestConfig = {
   ],
   webServer: {
     command: "npm start",
-    url: "http://127.0.0.1:3000",
+    url: "http://localhost:5173/",
     reuseExistingServer: true,
   },
-};
-
-export default defineConfig(playwrightTestConfig);
+});

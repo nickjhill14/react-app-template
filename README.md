@@ -33,16 +33,16 @@ A template for generating React web apps.
 npm run format
 ```
 
+## 🤔 Typechecking
+
+```shell
+npm run typecheck
+```
+
 ## 🧹 Linting
 
 ```shell
-npm run lint:check
-```
-
-To attempt to fix lint issues:
-
-```shell
-npm run lint:fix
+npm run lint
 ```
 
 ## ✅ Tests
